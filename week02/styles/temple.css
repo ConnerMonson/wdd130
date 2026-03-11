@@ -40,7 +40,7 @@ section {
     margin: 20px 0;
     border: 1px solid rgb(0, 0, 0 / 10%);
     padding: 10px;
-    background-color: #999;
+    background-color: #d5cdcd;
     font-size: .9rem;
 }
 
@@ -54,4 +54,5 @@ ul {
 
 footer {
     font-size: .9rem;
+
 }
