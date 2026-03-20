@@ -1,0 +1,94 @@
+:root {
+    --primary-color: rgb(122, 93, 32);
+    --secondary-color: rgb(43, 55, 102);
+    --accent1-color: rgb(18, 58, 99);
+    --accent2-color: rgb(103, 88, 60); 
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+header img{
+    background-color: var(--primary-color);
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    text-align: center;
+    opacity: .7;
+    background-color: var(--accent1-color);
+    color: rgb(103, 213, 240);
+}
+
+nav, p, section, article {
+    margin: 10px;
+    padding: 8px;
+}
+
+article {
+    position: absolute;
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    top: 350px;
+    opacity: .9;
+    background-color: var(--accent2-color);
+    color: black;
+}
+
+.hero article img {
+    float: right;
+    width: 100PX;
+    margin: 0px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.socialmedia img {
+    width: 50px;
+    height: auto;
+}
+
+footer {
+    margin-top: 5px;
+    border-top: 1px solid rgb(37, 37, 37);
+    font-size: small;
+}
