@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgb(122, 93, 32);
-    --secondary-color: rgb(249, 245, 6);
+    --secondary-color: rgb(67, 56, 12);
     --accent1-color: rgb(61, 115, 165);
     --accent2-color: rgb(103, 88, 60); 
     --heading-font: "Arial";
@@ -37,7 +37,7 @@ h1 {
     padding: 1rem;
     text-align: center;
     opacity: .7;
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
 }
 
 h2 {
@@ -56,8 +56,8 @@ nav, p, section, article {
     box-sizing: border-box;
     width: 100%;
     top: 350px;
-    opacity: .9;
-    background-color: var(--accent2-color);
+    opacity: .8;
+    background-color: var(--secondary-color);
     color: white;
 }
 
