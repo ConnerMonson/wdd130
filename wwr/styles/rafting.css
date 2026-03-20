@@ -1,9 +1,9 @@
 :root {
     --primary-color: rgb(122, 93, 32);
-    --secondary-color: rgb(43, 55, 102);
-    --accent1-color: rgb(18, 58, 99);
+    --secondary-color: rgb(216, 143, 7);
+    --accent1-color: rgb(70, 97, 123);
     --accent2-color: rgb(103, 88, 60); 
-    --heading-font: "Times New Roman", "Georgia", serif;
+    --heading-font: "Arial";
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -23,10 +23,6 @@ header, main, footer {
     margin: 0 auto;
 }
 
-header img{
-    background-color: var(--primary-color);
-}
-
 h1, h2 {
     font-family: var(--heading-font);
     text-align: center;
@@ -43,7 +39,7 @@ h1 {
     text-align: center;
     opacity: .7;
     background-color: var(--accent1-color);
-    color: rgb(103, 213, 240);
+    color: white;
 }
 
 nav, p, section, article {
@@ -58,8 +54,8 @@ article {
     width: 100%;
     top: 350px;
     opacity: .9;
-    background-color: var(--accent2-color);
-    color: black;
+    background-color: var(--accent1-color);
+    color: white;
 }
 
 .hero article img {
