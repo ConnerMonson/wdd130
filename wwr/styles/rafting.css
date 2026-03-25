@@ -23,6 +23,12 @@ header, main, footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
 h1, h2 {
     font-family: var(--heading-font);
     text-align: center;
