@@ -1,8 +1,8 @@
 :root {
-    --primary-color: rgb(122, 93, 32);
-    --secondary-color: rgb(67, 56, 12);
+    --primary-color: rgb(90, 130, 67);
+    --secondary-color: rgb(2, 103, 121);
     --accent1-color: rgb(61, 115, 165);
-    --accent2-color: rgb(103, 88, 60); 
+    --accent2-color: rgb(159, 100, 124); 
     --heading-font: "Arial";
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -24,10 +24,28 @@ header, main, footer {
 }
 
 header {
+    background-color: var(--accent1-color);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 300px 1fr;
     align-items: center;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+        text-decoration: none;
+        color: white;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
 
 h1, h2 {
     font-family: var(--heading-font);
@@ -48,6 +66,12 @@ h1 {
 
 h2 {
     background-color: var(--accent1-color);
+    text-align: center;
+}
+
+section img {
+    float: right;
+    margin: 10px;
 }
 
 
@@ -90,6 +114,23 @@ nav, p, section, article {
 .socialmedia img {
     width: 50px;
     height: auto;
+}
+
+.adventureimages {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.adventureimages figure {
+    margin: 0;
+    text-align: center;
+}
+
+.adventureimages img {
+    width: 125px;
+    height: 100px;
 }
 
 footer {
