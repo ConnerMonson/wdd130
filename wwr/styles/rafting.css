@@ -112,6 +112,7 @@ nav, p, section, article {
 }
 
 .socialmedia img {
+    margin: 5px;
     width: 50px;
     height: auto;
 }
