@@ -131,6 +131,7 @@ nav, p, section, article {
 .adventureimages img {
     width: 125px;
     height: 100px;
+    justify-content: center;
 }
 
 footer {
@@ -138,4 +139,9 @@ footer {
     border-top: 1px solid rgb(37, 37, 37);
     font-size: small;
     color: var(--accent2-color);
+    display: flex;
+}
+
+footer nav {
+    margin: 10px;
 }
