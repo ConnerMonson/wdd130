@@ -2,7 +2,7 @@
     --primary-color: rgb(90, 130, 67);
     --secondary-color: rgb(2, 103, 121);
     --accent1-color: rgb(61, 115, 165);
-    --accent2-color: rgb(159, 100, 124); 
+    --accent2-color: rgb(0, 0, 0); 
     --heading-font: "Arial";
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -84,6 +84,11 @@ p {
     text-align: center;
 }
 
+input, textarea, select, button {
+    padding: .75rem;
+    width: 350px;
+}
+
 .hero p {
     font-size: xx-large;
     font-family: monospace;
@@ -133,7 +138,7 @@ p {
     height: auto;
 }
 
-.adventureimages {
+.adventureimages, .employee-images{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -141,12 +146,12 @@ p {
     margin: 10px
 }
 
-.adventureimages figure {
+.adventureimages figure, .employee-images figure{
     margin: 0;
     text-align: center;
 }
 
-.adventureimages img {
+.adventureimages img{
     width: 125px;
     height: 100px;
     justify-content: center;
@@ -163,4 +168,70 @@ footer {
 
 footer nav {
     margin: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    color: var(--accent2-color);
+}
+
+.company-information {
+    margin: 1rem;
+    display: grid;
+    grid-template-rows: 30px 30px 30px;
+    align-items: center;
+}
+
+.employee-images img {
+    width: 125px;
+    height: 125px;
+    justify-content: center;
+}
+
+.employee-images h2 {
+    background-color: #fff;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.googlemap {
+    order: 1;
+}
+
+.form {
+    order: 2;
+}
+
+.form button {
+    background-color: var(--primary-color);
+}
+.radio-form label {
+    display: flex;
+    justify-content: center;
+}
+
+.radio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.radio-grid input{
+    width: auto;
+}
+
+.message-checkbox{
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    margin: 10px;
+}
+
+.message-checkbox input {
+    width: auto;
 }
