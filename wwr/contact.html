@@ -33,17 +33,23 @@
                 <div class="message-form">
                     <label for="username">Name
                         <input type="text" name="username" id="username">
+                    </label>
                 </div>
                 <div class="message-form">
                     <label for="useremail">Email</label>
                     <input type="text" name="useremail" id="useremail">
                 </div>
                 <div class="radio-form">
-                    <label for="purpose">Message Purpose</label>
+                    <label>Message Purpose</label>
                     <div class="radio-grid">
-                        <input type="radio" name="purpose" value="general">General Inquiry
-                        <input type="radio" name="purpose" value="reservation"> Reservation Request
-                        <input type="radio" name="purpose" value="website"> Website Suggestion
+                        <input type="radio" name="purpose" value="general" id="purpose">
+                        <label for="general">General Inquiry</label>
+
+                        <input type="radio" name="purpose" value="reservation" id="purpose">
+                        <label for="reservation">Reservation Request</label>
+
+                        <input type="radio" name="purpose" value="website" id="purpose">
+                        <label for="website">Website Suggestion</label>
                     </div>
                 </div>
                 <div class="message-form">
@@ -52,7 +58,7 @@
                 </div>
                 <div class="message-checkbox">
                     <label for="subscribe">Subscribe to the Monthly Newsletter</label>
-                    <input type="checkbox">
+                    <input type="checkbox" id="message-checkbox">
 
                 </div>
                 <button type="submit">Get in Touch!</button>
