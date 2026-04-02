@@ -178,6 +178,11 @@ footer nav {
     margin: 10px;
 }
 
+.employee {
+    border: 2px solid #bcbcbc;
+    background-color: #e6e6e6;
+}
+
 .employee-images img {
     width: 150px;
     height: 150px;
@@ -202,13 +207,21 @@ footer nav {
     margin-bottom: 10px;
 }
 
+.company-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--accent2-color);
+}
+
 .googlemap {
     grid-row: 2;
-
+    align-content: flex-end;
+    margin: .5rem;
 }
 
 .form {
     order: 2;
+    margin: .5rem;
 }
 
 .form button {
