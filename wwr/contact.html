@@ -22,13 +22,15 @@
         </nav>
     </header>
     <main>
-        <div class="company-information">
+        <div class="company-name">
             <h1>Apex Rafting Outfitters</h1>
-            <p>1234 NS America River Dr, Texas, USA </p>
-            <p>+1 800-WET-RAFT</p>
-            <p>info@ApexRaftingOutfitters.com</p>
         </div>
         <section class="grid-section">
+            <div class="company-contact">
+                <p>1234 NS America River Dr, Texas, USA </p>
+                <p>+1 800-WET-RAFT</p>
+                <p>info@ApexRaftingOutfitters.com</p>
+            </div>
             <form class="form">
                 <div class="message-form">
                     <label for="username">Name
@@ -42,13 +44,13 @@
                 <div class="radio-form">
                     <label>Message Purpose</label>
                     <div class="radio-grid">
-                        <input type="radio" name="purpose" value="general" id="purpose">
+                        <input type="radio" name="purpose" value="general" id="general">
                         <label for="general">General Inquiry</label>
 
-                        <input type="radio" name="purpose" value="reservation" id="purpose">
+                        <input type="radio" name="purpose" value="reservation" id="reservation">
                         <label for="reservation">Reservation Request</label>
 
-                        <input type="radio" name="purpose" value="website" id="purpose">
+                        <input type="radio" name="purpose" value="website" id="website">
                         <label for="website">Website Suggestion</label>
                     </div>
                 </div>
@@ -57,9 +59,9 @@
                     <textarea name="user-message" id="user-message"></textarea>
                 </div>
                 <div class="message-checkbox">
-                    <label for="subscribe">Subscribe to the Monthly Newsletter</label>
-                    <input type="checkbox" id="message-checkbox">
-
+                    <label for="subscribe">Subscribe to the Monthly Newsletter
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                    </label>
                 </div>
                 <button type="submit">Get in Touch!</button>
             </form>

@@ -178,18 +178,6 @@ footer nav {
     margin: 10px;
 }
 
-.company-information {
-    margin: 1rem;
-    display: grid;
-    grid-template-rows: 30px 30px 30px;
-    align-items: center;
-}
-
-.company-information h1 {
-    align-items: center;
-    justify-content: center;
-}
-
 .employee-images img {
     width: 150px;
     height: 150px;
@@ -203,11 +191,20 @@ footer nav {
 .grid-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
     gap: 20px;
 }
 
+.company-contact {
+    grid-column: 1 / -1;
+    text-align: center;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
 .googlemap {
-    order: 1;
+    grid-row: 2;
+
 }
 
 .form {
@@ -216,6 +213,9 @@ footer nav {
 
 .form button {
     background-color: var(--primary-color);
+    border-radius: 15px;
+    border: 1px solid #000;
+    height: 50px;
 }
 
 .radio-form label {
