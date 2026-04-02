@@ -2,7 +2,7 @@
     --primary-color: rgb(90, 130, 67);
     --secondary-color: rgb(2, 103, 121);
     --accent1-color: rgb(61, 115, 165);
-    --accent2-color: rgb(0, 0, 0); 
+    --accent2-color: rgb(0, 0, 0);
     --heading-font: "Arial";
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -18,7 +18,9 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer {
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
@@ -37,8 +39,8 @@ nav {
 }
 
 nav a {
-        text-decoration: none;
-        color: white;
+    text-decoration: none;
+    color: white;
 }
 
 header img {
@@ -46,8 +48,8 @@ header img {
     height: auto;
 }
 
-
-h1, h2 {
+h1,
+h2 {
     font-family: var(--heading-font);
     text-align: center;
     color: white;
@@ -74,8 +76,10 @@ section img {
     margin: auto;
 }
 
-
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 10px;
     padding: 8px;
 }
@@ -84,7 +88,10 @@ p {
     text-align: center;
 }
 
-input, textarea, select, button {
+input,
+textarea,
+select,
+button {
     padding: .75rem;
     width: 350px;
 }
@@ -131,14 +138,14 @@ input, textarea, select, button {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-
 .socialmedia img {
     margin: 5px;
     width: 50px;
     height: auto;
 }
 
-.adventureimages, .employee-images{
+.adventureimages,
+.employee-images {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -146,12 +153,13 @@ input, textarea, select, button {
     margin: 10px
 }
 
-.adventureimages figure, .employee-images figure{
+.adventureimages figure,
+.employee-images figure {
     margin: 0;
     text-align: center;
 }
 
-.adventureimages img{
+.adventureimages img {
     width: 125px;
     height: 100px;
     justify-content: center;
@@ -184,8 +192,8 @@ h3 {
 }
 
 .employee-images img {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
     justify-content: center;
 }
 
@@ -210,6 +218,7 @@ h3 {
 .form button {
     background-color: var(--primary-color);
 }
+
 .radio-form label {
     display: flex;
     justify-content: center;
@@ -222,11 +231,11 @@ h3 {
     gap: 10px;
 }
 
-.radio-grid input{
+.radio-grid input {
     width: auto;
 }
 
-.message-checkbox{
+.message-checkbox {
     display: grid;
     grid-template-columns: 1fr 20px;
     margin: 10px;
