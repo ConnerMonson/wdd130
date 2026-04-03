@@ -242,6 +242,7 @@ footer nav {
     border-radius: 15px;
     border: 1px solid #000;
     height: 50px;
+    font-size: 1rem;
 }
 
 .radio-form label {
