@@ -30,6 +30,7 @@ header {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
+    color: #fff;
 }
 
 nav {
@@ -187,6 +188,10 @@ footer nav {
     width: 150px;
     height: 150px;
     justify-content: center;
+}
+
+.employee-images figcaption {
+    color: #000;
 }
 
 .employee-images h2 {
