@@ -346,7 +346,73 @@ footer nav {
     font-size: 1rem;
 }
 
-.trips a {
+.trips a,
+.contact-info a {
     color: var(--accent2-color);
     text-decoration: none;
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    border: 1px solid var(--accent2-color);
+}
+
+.trips-h1 h1 {
+    margin-bottom: 50px;
+    margin-top: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    color: #000;
+}
+
+.trips-grid img {
+    margin: 15px 10px 5px auto;
+    justify-content: center;
+    width: 250px;
+}
+
+.bigdrop-trip,
+.muddy-trip,
+.canyon-trip {
+    background-color: #e6e6e6;
+}
+
+table {
+    margin: 5px auto;
+    border-collapse: collapse;
+    border: 2px solid var(--accent2-color);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    text-align: center;
+}
+
+thead th {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e6e6;
+}
+
+.contact-info h3 {
+    padding: 10px;
+}
+
+.contact-info a {
+    margin: 5px auto 10px;
 }
