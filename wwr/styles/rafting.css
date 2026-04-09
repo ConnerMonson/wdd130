@@ -398,8 +398,8 @@ td {
 
 thead th {
     background-color: var(--primary-color);
-    color: #fff;
-    font-size: 1rem;
+    color: var(--accent2-color);
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
