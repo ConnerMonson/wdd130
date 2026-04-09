@@ -296,6 +296,7 @@ footer nav {
     display: block;
     margin: 4px auto 10px;
     background-color: var(--accent1-color);
+    color: #fff;
 }
 
 .name,
